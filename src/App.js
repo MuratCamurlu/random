@@ -1,8 +1,9 @@
+import Card from "./card/Card";
+
 function App() {
   return (
-    <div>
-      <h1>Hello React</h1>
-      <h2>VSCODE</h2>
+    <div className="container">
+      <Card />
     </div>
   );
 }
