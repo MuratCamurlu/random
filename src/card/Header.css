@@ -1,0 +1,9 @@
+.header2 {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: whitesmoke;
+}
