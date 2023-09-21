@@ -13,14 +13,8 @@ const Card = ({ picture, name, email, phone, location, registered }) => {
         </div>
         <div className="main">
           <div className="gövde">
-            <i className="fa-solid fa-envelope-open-text"></i> <h3>{email}</h3>
-          </div>
-          <div className="gövde">
-            <i className="fa-solid fa-phone"></i>
+            <h3>{email}</h3>
             <h3>{phone}</h3>
-          </div>
-          <div className="gövde">
-            <i className="fa-solid fa-map-location-dot"></i>
             <h3>
               {location?.city}/{location?.country}
             </h3>

@@ -9,4 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
+  height: 100vh;
+  background-color: blue;
 }

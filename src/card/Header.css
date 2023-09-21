@@ -1,9 +1,11 @@
 .header2 {
   width: 100%;
-  border-bottom: 1px solid grey;
-  background-color: red;
+  background-color: orange;
   display: flex;
   align-items: center;
   gap: 2rem;
   color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
